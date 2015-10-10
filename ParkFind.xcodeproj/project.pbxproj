@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADEAF1321BC9AA8C0092A6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAF1311BC9AA8C0092A6F4 /* AppDelegate.swift */; };
+		ADEAF1341BC9AA8C0092A6F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAF1331BC9AA8C0092A6F4 /* ViewController.swift */; };
+		ADEAF1371BC9AA8C0092A6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEAF1351BC9AA8C0092A6F4 /* Main.storyboard */; };
+		ADEAF13A1BC9AA8C0092A6F4 /* ParkFind.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADEAF1381BC9AA8C0092A6F4 /* ParkFind.xcdatamodeld */; };
+		ADEAF13C1BC9AA8C0092A6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADEAF13B1BC9AA8C0092A6F4 /* Assets.xcassets */; };
+		ADEAF13F1BC9AA8C0092A6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADEAF13D1BC9AA8C0092A6F4 /* LaunchScreen.storyboard */; };
+		ADEAF14A1BC9AA8C0092A6F4 /* ParkFindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAF1491BC9AA8C0092A6F4 /* ParkFindTests.swift */; };
+		ADEAF1551BC9AA8C0092A6F4 /* ParkFindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAF1541BC9AA8C0092A6F4 /* ParkFindUITests.swift */; };
+		ADEAF1651BC9B45C0092A6F4 /* selectionLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEAF1641BC9B45C0092A6F4 /* selectionLocationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADEAF1461BC9AA8C0092A6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEAF1261BC9AA8C0092A6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEAF12D1BC9AA8C0092A6F4;
+			remoteInfo = ParkFind;
+		};
+		ADEAF1511BC9AA8C0092A6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADEAF1261BC9AA8C0092A6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADEAF12D1BC9AA8C0092A6F4;
+			remoteInfo = ParkFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADEAF12E1BC9AA8C0092A6F4 /* ParkFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEAF1311BC9AA8C0092A6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADEAF1331BC9AA8C0092A6F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADEAF1361BC9AA8C0092A6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADEAF1391BC9AA8C0092A6F4 /* ParkFind.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParkFind.xcdatamodel; sourceTree = "<group>"; };
+		ADEAF13B1BC9AA8C0092A6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADEAF13E1BC9AA8C0092A6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADEAF1401BC9AA8C0092A6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEAF1451BC9AA8C0092A6F4 /* ParkFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEAF1491BC9AA8C0092A6F4 /* ParkFindTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkFindTests.swift; sourceTree = "<group>"; };
+		ADEAF14B1BC9AA8C0092A6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEAF1501BC9AA8C0092A6F4 /* ParkFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADEAF1541BC9AA8C0092A6F4 /* ParkFindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkFindUITests.swift; sourceTree = "<group>"; };
+		ADEAF1561BC9AA8C0092A6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADEAF1641BC9B45C0092A6F4 /* selectionLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = selectionLocationViewController.swift; path = ../selectionLocationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADEAF12B1BC9AA8C0092A6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEAF1421BC9AA8C0092A6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEAF14D1BC9AA8C0092A6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADEAF1251BC9AA8C0092A6F4 = {
+			isa = PBXGroup;
+			children = (
+				ADEAF1301BC9AA8C0092A6F4 /* ParkFind */,
+				ADEAF1481BC9AA8C0092A6F4 /* ParkFindTests */,
+				ADEAF1531BC9AA8C0092A6F4 /* ParkFindUITests */,
+				ADEAF12F1BC9AA8C0092A6F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADEAF12F1BC9AA8C0092A6F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADEAF12E1BC9AA8C0092A6F4 /* ParkFind.app */,
+				ADEAF1451BC9AA8C0092A6F4 /* ParkFindTests.xctest */,
+				ADEAF1501BC9AA8C0092A6F4 /* ParkFindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEAF1301BC9AA8C0092A6F4 /* ParkFind */ = {
+			isa = PBXGroup;
+			children = (
+				ADEAF1311BC9AA8C0092A6F4 /* AppDelegate.swift */,
+				ADEAF1331BC9AA8C0092A6F4 /* ViewController.swift */,
+				ADEAF1641BC9B45C0092A6F4 /* selectionLocationViewController.swift */,
+				ADEAF1351BC9AA8C0092A6F4 /* Main.storyboard */,
+				ADEAF13B1BC9AA8C0092A6F4 /* Assets.xcassets */,
+				ADEAF13D1BC9AA8C0092A6F4 /* LaunchScreen.storyboard */,
+				ADEAF1401BC9AA8C0092A6F4 /* Info.plist */,
+				ADEAF1381BC9AA8C0092A6F4 /* ParkFind.xcdatamodeld */,
+			);
+			path = ParkFind;
+			sourceTree = "<group>";
+		};
+		ADEAF1481BC9AA8C0092A6F4 /* ParkFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEAF1491BC9AA8C0092A6F4 /* ParkFindTests.swift */,
+				ADEAF14B1BC9AA8C0092A6F4 /* Info.plist */,
+			);
+			path = ParkFindTests;
+			sourceTree = "<group>";
+		};
+		ADEAF1531BC9AA8C0092A6F4 /* ParkFindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADEAF1541BC9AA8C0092A6F4 /* ParkFindUITests.swift */,
+				ADEAF1561BC9AA8C0092A6F4 /* Info.plist */,
+			);
+			path = ParkFindUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADEAF12D1BC9AA8C0092A6F4 /* ParkFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEAF1591BC9AA8C0092A6F4 /* Build configuration list for PBXNativeTarget "ParkFind" */;
+			buildPhases = (
+				ADEAF12A1BC9AA8C0092A6F4 /* Sources */,
+				ADEAF12B1BC9AA8C0092A6F4 /* Frameworks */,
+				ADEAF12C1BC9AA8C0092A6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkFind;
+			productName = ParkFind;
+			productReference = ADEAF12E1BC9AA8C0092A6F4 /* ParkFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADEAF1441BC9AA8C0092A6F4 /* ParkFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEAF15C1BC9AA8C0092A6F4 /* Build configuration list for PBXNativeTarget "ParkFindTests" */;
+			buildPhases = (
+				ADEAF1411BC9AA8C0092A6F4 /* Sources */,
+				ADEAF1421BC9AA8C0092A6F4 /* Frameworks */,
+				ADEAF1431BC9AA8C0092A6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEAF1471BC9AA8C0092A6F4 /* PBXTargetDependency */,
+			);
+			name = ParkFindTests;
+			productName = ParkFindTests;
+			productReference = ADEAF1451BC9AA8C0092A6F4 /* ParkFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADEAF14F1BC9AA8C0092A6F4 /* ParkFindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADEAF15F1BC9AA8C0092A6F4 /* Build configuration list for PBXNativeTarget "ParkFindUITests" */;
+			buildPhases = (
+				ADEAF14C1BC9AA8C0092A6F4 /* Sources */,
+				ADEAF14D1BC9AA8C0092A6F4 /* Frameworks */,
+				ADEAF14E1BC9AA8C0092A6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADEAF1521BC9AA8C0092A6F4 /* PBXTargetDependency */,
+			);
+			name = ParkFindUITests;
+			productName = ParkFindUITests;
+			productReference = ADEAF1501BC9AA8C0092A6F4 /* ParkFindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADEAF1261BC9AA8C0092A6F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = SeoEricc;
+				TargetAttributes = {
+					ADEAF12D1BC9AA8C0092A6F4 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					ADEAF1441BC9AA8C0092A6F4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ADEAF12D1BC9AA8C0092A6F4;
+					};
+					ADEAF14F1BC9AA8C0092A6F4 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = ADEAF12D1BC9AA8C0092A6F4;
+					};
+				};
+			};
+			buildConfigurationList = ADEAF1291BC9AA8C0092A6F4 /* Build configuration list for PBXProject "ParkFind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADEAF1251BC9AA8C0092A6F4;
+			productRefGroup = ADEAF12F1BC9AA8C0092A6F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADEAF12D1BC9AA8C0092A6F4 /* ParkFind */,
+				ADEAF1441BC9AA8C0092A6F4 /* ParkFindTests */,
+				ADEAF14F1BC9AA8C0092A6F4 /* ParkFindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADEAF12C1BC9AA8C0092A6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEAF13F1BC9AA8C0092A6F4 /* LaunchScreen.storyboard in Resources */,
+				ADEAF13C1BC9AA8C0092A6F4 /* Assets.xcassets in Resources */,
+				ADEAF1371BC9AA8C0092A6F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEAF1431BC9AA8C0092A6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEAF14E1BC9AA8C0092A6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADEAF12A1BC9AA8C0092A6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEAF13A1BC9AA8C0092A6F4 /* ParkFind.xcdatamodeld in Sources */,
+				ADEAF1341BC9AA8C0092A6F4 /* ViewController.swift in Sources */,
+				ADEAF1651BC9B45C0092A6F4 /* selectionLocationViewController.swift in Sources */,
+				ADEAF1321BC9AA8C0092A6F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEAF1411BC9AA8C0092A6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEAF14A1BC9AA8C0092A6F4 /* ParkFindTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADEAF14C1BC9AA8C0092A6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADEAF1551BC9AA8C0092A6F4 /* ParkFindUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADEAF1471BC9AA8C0092A6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEAF12D1BC9AA8C0092A6F4 /* ParkFind */;
+			targetProxy = ADEAF1461BC9AA8C0092A6F4 /* PBXContainerItemProxy */;
+		};
+		ADEAF1521BC9AA8C0092A6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADEAF12D1BC9AA8C0092A6F4 /* ParkFind */;
+			targetProxy = ADEAF1511BC9AA8C0092A6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADEAF1351BC9AA8C0092A6F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEAF1361BC9AA8C0092A6F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADEAF13D1BC9AA8C0092A6F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADEAF13E1BC9AA8C0092A6F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADEAF1571BC9AA8C0092A6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADEAF1581BC9AA8C0092A6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADEAF15A1BC9AA8C0092A6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParkFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seoericc.ParkFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADEAF15B1BC9AA8C0092A6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParkFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seoericc.ParkFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADEAF15D1BC9AA8C0092A6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParkFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seoericc.ParkFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkFind.app/ParkFind";
+			};
+			name = Debug;
+		};
+		ADEAF15E1BC9AA8C0092A6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ParkFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seoericc.ParkFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkFind.app/ParkFind";
+			};
+			name = Release;
+		};
+		ADEAF1601BC9AA8C0092A6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParkFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seoericc.ParkFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParkFind;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ADEAF1611BC9AA8C0092A6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ParkFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.seoericc.ParkFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ParkFind;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADEAF1291BC9AA8C0092A6F4 /* Build configuration list for PBXProject "ParkFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEAF1571BC9AA8C0092A6F4 /* Debug */,
+				ADEAF1581BC9AA8C0092A6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADEAF1591BC9AA8C0092A6F4 /* Build configuration list for PBXNativeTarget "ParkFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEAF15A1BC9AA8C0092A6F4 /* Debug */,
+				ADEAF15B1BC9AA8C0092A6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADEAF15C1BC9AA8C0092A6F4 /* Build configuration list for PBXNativeTarget "ParkFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEAF15D1BC9AA8C0092A6F4 /* Debug */,
+				ADEAF15E1BC9AA8C0092A6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADEAF15F1BC9AA8C0092A6F4 /* Build configuration list for PBXNativeTarget "ParkFindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADEAF1601BC9AA8C0092A6F4 /* Debug */,
+				ADEAF1611BC9AA8C0092A6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ADEAF1381BC9AA8C0092A6F4 /* ParkFind.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ADEAF1391BC9AA8C0092A6F4 /* ParkFind.xcdatamodel */,
+			);
+			currentVersion = ADEAF1391BC9AA8C0092A6F4 /* ParkFind.xcdatamodel */;
+			path = ParkFind.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ADEAF1261BC9AA8C0092A6F4 /* Project object */;
+}
